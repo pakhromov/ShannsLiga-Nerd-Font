@@ -2,6 +2,22 @@
 
 This collection of fonts is a combination of [ComicShannsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ComicShannsMono) and [SeriousShanns Nerd Font](https://github.com/kaBeech/serious-shanns) with ligatures from [RecMonoSmCasual Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Recursive).
 
+## Installation
+
+### AUR (Arch Linux)
+
+```bash
+yay -S shanns-liga-nerd-font
+```
+
+### Manual
+
+Download the zip from the [latest release](https://github.com/pakhromov/ShannsLiga-Nerd-Font/releases/latest), extract and copy the `.otf` files to `~/.local/share/fonts/`, then run:
+
+```bash
+fc-cache -f
+```
+
 ## Variations
 
 There are 3 variations for both ComicShanns and SeriousShanns:
